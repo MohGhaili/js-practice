@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>City Selector</title>
+</head>
+<body>
+    <select name="country" id="country">
+        <option value="none" selected disabled hidden>Country</option>
+        <option value="Yemen">Yemen</option>
+        <option value="Egypt">Egypt</option>
+    </select>
+
+    <select class="country" name="city" id="city" value="city">
+        <option value="none" selected disabled hidden>City</option>
+    </select>
+
+    <select class="egypt hidden country" name="egypt_city" id="egypt_city" value="egypt_city">
+        <option value="none" selected disabled hidden>City</option>
+        <option value="Cairo">Cairo</option>
+        <option value="Alexandria">Alexandria</option>
+    </select>
+    <select class="yemen hidden country" name="yemen_city" id="yemen_city">
+        <option value="none" selected disabled hidden>City</option>
+        <option value="Sana'a">Sana'a</option>
+        <option value="Aden">Aden</option>
+    </select>
+    <div id="images">
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
